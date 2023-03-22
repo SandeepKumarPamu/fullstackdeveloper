@@ -15,6 +15,7 @@ public class Feature1 {
 	Scanner sc= new Scanner(System.in);
 	
 	public void search() {
+		//list all files
 		for(int i=0; i<contents.length; i++) {
 			  ar.add(contents[i]);  
 		      }
