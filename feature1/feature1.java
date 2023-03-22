@@ -19,7 +19,7 @@ public class Feature1 {
 		for(int i=0; i<contents.length; i++) {
 			  ar.add(contents[i]);  
 		      }
-		
+		//sorting in ascending order
 		  ar.sort(Comparator.naturalOrder());
     System.out.println("List of files and directories in the specified directory:");
     Iterator<String> itr = ar.iterator();
