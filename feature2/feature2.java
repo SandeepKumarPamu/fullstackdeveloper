@@ -72,6 +72,7 @@ public class Feature2 {
 		break;
 	
 	    case 3: 
+	    //linear search
 	    System.out.println("Enter a file name to search");
 	    System.out.println("************************************************");
 	    String filename2=sc.next();
