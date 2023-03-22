@@ -56,6 +56,7 @@ public class Feature2 {
 		break;
 		
 	    case 2:
+	    //deletion
 		System.out.println("Enter a file name to delete");
 		System.out.println("************************************************");
 		String file1=sc.next();
