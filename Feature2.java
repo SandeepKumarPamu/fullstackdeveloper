@@ -80,10 +80,10 @@ public class Feature2 {
 	    System.out.println("************************************************");
 		System.out.println("Searching....");
 		Thread.sleep(1000);
-	    boolean flag=false;
+	    int c=0;
 		for(int i=0;i<contents.length;i++) {
 			if(contents[i].equals(filename2)) {
-				flag=true;
+			 c++;
 			}
 		}
 //		  for(int i=0; i<contents.length; i++) {
@@ -102,7 +102,7 @@ public class Feature2 {
 ////			    		break;
 ////			    	}
 //			    }
-		  if(flag) {
+		  if(c>1) {
 			  System.out.println("************************************************");
 			  System.out.println("File with name "+filename2+" is found in the path: "+directory.getAbsolutePath());
 		  }
